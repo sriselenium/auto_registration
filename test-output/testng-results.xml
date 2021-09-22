@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T06:55:08 IST" name="Default suite" finished-at="2021-09-22T06:57:38 IST" duration-ms="150125">
+    <groups>
+    </groups>
+    <test started-at="2021-09-22T06:55:08 IST" name="Default test" finished-at="2021-09-22T06:57:38 IST" duration-ms="150125">
+      <class name="com.ap.test.registration_test">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:55:08 IST" name="beforesuite" finished-at="2021-09-22T06:55:08 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:55:08 IST" name="launchBrowser" finished-at="2021-09-22T06:55:27 IST" duration-ms="19395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:55:27 IST" name="init" finished-at="2021-09-22T06:55:27 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="CreateEmail_address()[pri:1, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:55:27 IST" name="CreateEmail_address" finished-at="2021-09-22T06:55:50 IST" duration-ms="22612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEmail_address -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:55:50 IST" name="init" finished-at="2021-09-22T06:55:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validRegister()[pri:2, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:55:50 IST" name="validRegister" finished-at="2021-09-22T06:56:19 IST" duration-ms="29411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegister -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:56:19 IST" name="init" finished-at="2021-09-22T06:56:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testValidLogin()[pri:3, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:56:19 IST" name="testValidLogin" finished-at="2021-09-22T06:56:57 IST" duration-ms="37677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:56:57 IST" name="init" finished-at="2021-09-22T06:56:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="CreateEmail_addressForInvalidRegister()[pri:4, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:56:57 IST" name="CreateEmail_addressForInvalidRegister" finished-at="2021-09-22T06:57:07 IST" duration-ms="10272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateEmail_addressForInvalidRegister -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:57:07 IST" name="init" finished-at="2021-09-22T06:57:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="InvalidRegister()[pri:5, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:57:07 IST" name="InvalidRegister" finished-at="2021-09-22T06:57:21 IST" duration-ms="14298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidRegister -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:57:21 IST" name="init" finished-at="2021-09-22T06:57:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testInValidLogin()[pri:6, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:57:21 IST" name="testInValidLogin" finished-at="2021-09-22T06:57:38 IST" duration-ms="16045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidLogin -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.ap.test.registration_test@32ee6fee]" started-at="2021-09-22T06:57:38 IST" name="terminate" finished-at="2021-09-22T06:57:38 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.ap.test.registration_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
